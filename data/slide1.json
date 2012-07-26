@@ -1,0 +1,105 @@
+[{
+	title : 'ECMAScript 6',
+	template : 'separator'
+},
+// Summary
+{
+	template : 'summary',
+	items : [
+		'Why New ECMAScript ?',
+		'Features and Syntax',
+		'ES6 Roadmap'
+	]
+},
+// NEW ECMASCRIPT
+{
+	title : 'New ECMAScript ?',
+	template : 'empty'
+},
+// Why ?
+{
+	template : 'pic',
+	picture : 'images/why.jpg'
+},
+// ES5 features
+{
+	template : 'normal',
+	items : 'ES5 added many defacto standards as extras'
+},
+{
+	items : 'ES5 added strict mode'
+},
+{
+	items : 'ES5 added meta-objects'
+},
+{
+	items : 'I already prepared a presentation on ES5 !'
+},
+// ES3 vs ES5
+{
+	title : 'See the difference ?',
+	template : 'pic',
+	picture : 'images/es3_to_es5.png'
+},
+// ES5 was evolutionary
+{
+	title : 'ES5 was evolutionary',
+	template : 'empty'
+},
+{
+	template : 'normal',
+	items : 'No new keyword introduced'
+},
+{
+	items : 'No new operator'
+},
+{
+	items : 'Few "groundbreaking" concepts'
+},
+// Timeline
+{
+	title : 'ECMAScript History',
+	template : 'empty'
+},{
+	items : 'ECMAScript 1 : June 1997',
+	template : 'normal'
+},{
+	items : 'ECMAScript 2 : June 1998'
+},{
+	items : 'ECMAScript 3 : December 1999'
+},{
+	items : 'ECMAScript 4 : Cancelled'
+},{
+	items : 'ECMAScript 5 : Released in december 2009'
+},{
+	overrideItems : true,
+	items : ['ECMAScript 1 : June 1997','ECMAScript 2 : June 1998','ECMAScript 3 : December 1999',
+		'ECMAScript 4 : Cancelled ?','ECMAScript 5 : Released in december 2009']
+},{
+	overrideItems : true,
+	items : ['ECMAScript 1 : June 1997','ECMAScript 2 : June 1998','ECMAScript 3 : December 1999',
+		'ECMAScript 4 : Cancelled ??','ECMAScript 5 : Released in december 2009']
+},{
+	overrideItems : true,
+	items : ['ECMAScript 1 : June 1997','ECMAScript 2 : June 1998','ECMAScript 3 : December 1999',
+		'ECMAScript 4 : Cancelled ???','ECMAScript 5 : Released in december 2009']
+},
+{
+	template : 'quote',
+	author : 'Douglas Crockford',
+	quote : 'The ES4 proposal contained a lot of pork. It lacked a credible value proposition',
+	picture : 'images/dougcrockford.jpg'
+},
+{
+	title : 'ECMAScript 4 Reborn !',
+	template : 'empty'
+},{
+	template : 'normal',
+	items : 'TC39 went back to work on ES4 in July 2011' 
+},{
+	items : 'Renamed it ECMAScript 6'
+},{
+	items : 'Wait no : ES.next (if version 6 gets cancelled at least we can reuse the drafts)'
+},{
+	items : 'Actually what about Harmony ?'
+}]

@@ -1,0 +1,18 @@
+@font-face { font-family: Inconsolata; src: url('Inconsolata.otf'); } 
+
+.skin-dark {
+	background-image : url('../images/background/dark.png');	
+}
+
+.skin-dark .slide {
+	/*color : #64FFFF;*/
+	color : #aaa;
+	font-weight : normal;
+	/*font-family : Helvetica;*/
+	font-family: 'Inconsolata', sans-serif;
+	text-shadow : 0 -1px 0 #111111;
+}
+
+.skin-dark .box {
+    box-shadow: 0 -1px 1px 0px rgba(0, 0, 0, 0.2), 0 1px 1px 0px rgba(255, 255, 255, 0.2);
+}

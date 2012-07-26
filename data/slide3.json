@@ -1,0 +1,60 @@
+[{
+	title : 'Closing comments',
+	template : 'separator'
+},{
+	title : 'Current state',
+	template : 'normal'
+},
+{
+	items : 'First draft in July 2011'
+},
+{
+	items : '9th (latest) revision released in July 2012'
+},
+{
+	items : '"This Ecma Standard has been adopted by the General Assembly of <month> <year>."'
+},
+{
+	items : 'Still not stable, still heavily challenged by the community, but consensus is on the horizon'
+},{
+	template : 'empty',
+	title : 'Compatibility tables'
+},{
+	template : 'pic',
+	title : 'http://kangax.github.com/es5-compat-table/',
+	picture : 'images/compates5.png'
+},{
+	title : 'http://kangax.github.com/es5-compat-table/es6',
+	picture : 'images/compates6.png'
+},{
+	title : 'Links - references',
+	template : 'normal',
+	overrideItems : true,
+	items : [
+		'http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts',
+		'http://wiki.ecmascript.org/doku.php?id=harmony:proposals',
+		'http://www.slideshare.net/BrendanEich/txjs-talk',
+		'https://brendaneich.com/2012/06/recent-talks-fluent-txjs-2012/',
+		'http://www.2ality.com/search/label/ecmascript.next'
+	]
+},{
+	title : 'Links - try ES6 today',
+	overrideItems : true,
+	items : [
+		'http://code.google.com/p/traceur-compiler/',
+		'https://developer.mozilla.org/en/JavaScript/ECMAScript_6_support_in_Mozilla'
+	]
+},{
+	title : 'Links - discussions',
+	overrideItems : true,
+	items : [
+		'https://github.com/JSFixed/JSFixed',
+		'http://www.nczonline.net/blog/2012/07/24/thoughts-on-ecmascript-6-and-new-syntax/',
+		'https://mail.mozilla.org/pipermail/es-discuss/2011-December/019112.html',
+		'https://mail.mozilla.org/listinfo/es-discuss/'
+	]
+},{
+	title : 'Thank you !',
+	template : 'separator',
+	end : true
+}]

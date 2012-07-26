@@ -1,0 +1,117 @@
+[{
+	title : 'Features and Syntax',
+	template : 'separator'
+},{
+	title : 'Block scoped bindings',
+	template : 'normal'
+},
+{
+	items : ['let "the new var"', 'let x = 5;']
+},
+{
+	items : ['let statements','let (a = "hello", b = "world") {print(a+b)}']
+},
+{
+	items : ['let expressions','print(let (a = "hello", b = "world") a+b)']
+},
+{
+	template : 'pictures',
+	pictures : 'images/loopclosurevar.png'
+},
+{
+	pictures : 'images/loopclosurelet.png'
+},
+{
+	title : 'Arguments, rest, spread',
+	template : 'normal'
+},
+{
+	items : 'arguments is still available'
+},
+{
+	items : 'arguments parsing simplified with rest'
+},
+{
+	items : 'arguments application simplified with spread'
+},
+{
+	template : 'pictures',
+	pictures : 'images/arguments.png'
+},
+{
+	pictures : 'images/restspread.png'
+},{
+	title : 'Default parameter values',
+	templates : 'empty'
+},{
+	template : 'pictures',
+	pictures : 'images/defaultparames3.png'
+},{	
+	pictures : 'images/defaultparames6.png'
+},{
+	template : 'normal',
+	title : 'Destructuring'
+},
+{
+	items : 'exchange values : [x, y] = [y, x]'
+},
+{
+	items : 'let {name:n,firstname:f} = {name:"Doe",firstname:"John",age:35}'
+},
+{
+	items : 'function arguments : function({name:n,firstname:f}) { console.log(n,f); }'
+},
+{
+	template : 'normal',
+	title : 'Arrow function notation' 
+},
+{
+	items : 'Like CoffeeScript ?'
+},
+{
+	items : 'Good because TC39 likes it too apparently'
+},
+{
+	items : 'Both -> and => were proposed, but only fat arrow made it so far'
+},
+{
+	items : 'Warning, arrow functions differ from regular functions - for instance, no \'arguments\'' 
+},{
+	template : 'pic',
+	picture : 'images/arrowfunctions.png' 
+},
+{
+	template : 'normal',
+	title : 'Modules'
+},
+{
+	template : 'pictures',
+	pictures : 'images/modulesbasic.png'
+},
+{
+	pictures : 'images/modulesurl.png'
+},
+{
+	title : 'Also in Modules',
+	template : 'normal'
+}, 
+{
+	items : 'asynchronous load'
+},{
+	items : 'nested modules'
+},{
+	items : 'convenient import * '
+},{
+	items : 'cyclic dependencies resolution'
+},{
+	title : 'And much more ...',
+	overrideItems : true
+},{
+	items : 'Iterators (for .. of), generators, comprehensions'
+},{
+	items : 'Syntactic sugar for Classes'
+},{
+	items : 'Quasi-literals : x`foo${bar}baz`'
+},{
+	items : 'Proxies'
+}]
